@@ -2,35 +2,36 @@
 This VBA macro allows you to send personalized bulk emails using Microsoft Outlook and Excel. You can send up to 10 emails in around 20 seconds.
 
 🚀 Features
+
 ✅ Uses Outlook Desktop Application to send emails
+
 ✅ Sends customized messages based on spreadsheet data
+
 ✅ Supports email attachments
+
 ✅ Automates the process to save time
 
 🛠️ How to Use
-Prepare your Excel file
+1. Prepare your Excel file
 
-Column A: Recipient email
+- Column A: Recipient email
 
-Column B: CC email (optional)
+- Column B: CC email (optional)
 
-Column C: Email subject
+- Column C: Email subject
 
-Column D: Attachment file name (without extension)
+- Column D: Attachment file name (without extension)
 
-Column E: Folder path where the attachments are stored
+- Column E: Folder path where the attachments are stored
 
-Cell F2: Email body text
+- Cell F2: Email body text
 
-Run the Macro
+2. Run the Macro
 
-Open the Excel file
+- After placing the necessary data in the corresponding columns, click the button in the Excel file to execute the macro.
 
-Press ALT + F11 to open the VBA editor
+- The macro will send emails to each recipient with the customized information, including attachments.
 
-Copy and paste the macro into a new module
-
-Run Send_Bulk_Emails
 
 📂 Installation
 No installation needed. Just open the Excel file and run the macro.
